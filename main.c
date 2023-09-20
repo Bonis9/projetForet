@@ -88,7 +88,7 @@ void displayForest(int m, int n)
     }
         
 }
-
+//La fonction demande combien de fois un élément doit être ajouté, puis elle procède à l'ajout. À la fin, toutes les cases non sélectionnées seront automatiquement transformées en feuilles.
 void Filling(int m, int n)
 {
     int foret[m][n];
