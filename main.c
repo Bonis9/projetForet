@@ -94,7 +94,7 @@ int main(void)
 {
 	int m,n;
 	menuDemarrer(&m, &n);
-	
+	//test
 	//--------------------------Création de la foret-----------------------
 	forest = (forestCell **)calloc(m, sizeof(forestCell*));//Creation de la partie x du double tableau et init toutes les cas à 0
 	
