@@ -103,7 +103,7 @@ int main(void)
 	{	
 		forest[i] = (forestCell*)calloc(n, sizeof(forestCell));
 	}
-	int pdm = 5;
+	int pdm = 6;
 	unsigned char fillingChoosed = fillingChoice();
 
 	if(fillingChoosed == 'N' || fillingChoosed == 'n')
